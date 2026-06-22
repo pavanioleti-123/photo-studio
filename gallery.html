@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse the creative portfolio of Royal Vision Photo Studio. Stunning wedding, portrait, event, baby, and fashion photography galleries.">
+    <title>Gallery | Royal Vision Photo Studio</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo" id="headerLogo">
+                <span class="logo-main">ROYAL VISION</span>
+                <span class="logo-sub">Photo Studio</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-btn">
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle menu" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Inner Hero Page Banner -->
+    <section class="inner-hero">
+        <div class="hero-bg-wrap">
+            <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1920&q=80" alt="Royal Vision Photography Studio" class="hero-bg">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="inner-hero-content">
+            <h1 class="inner-hero-title">Our Creative Portfolio</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a><span>&bull;</span><span>Gallery</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery Section -->
+    <section class="section">
+        <div class="container">
+            <!-- Filter Tabs -->
+            <div class="gallery-filter-wrap reveal reveal-up">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="weddings">Weddings</button>
+                <button class="filter-btn" data-filter="portraits">Portraits</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="baby-shoots">Baby Shoots</button>
+                <button class="filter-btn" data-filter="fashion">Fashion</button>
+            </div>
+            
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Item 1: Wedding (Tall) -->
+                <div class="gallery-item tall reveal reveal-up" data-category="weddings">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Bride and Groom under arches" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Weddings</span>
+                        <h3 class="gallery-item-title">Ethereal Vows</h3>
+                    </div>
+                </div>
+
+                <!-- Item 2: Portrait -->
+                <div class="gallery-item reveal reveal-up" data-category="portraits">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Studio fashion model portrait" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Portraits</span>
+                        <h3 class="gallery-item-title">Crimson Silhouette</h3>
+                    </div>
+                </div>
+
+                <!-- Item 3: Event -->
+                <div class="gallery-item reveal reveal-up" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Luxury corporate gala banquet hall" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Events</span>
+                        <h3 class="gallery-item-title">Midnight Gala</h3>
+                    </div>
+                </div>
+
+                <!-- Item 4: Baby Shoot (Tall) -->
+                <div class="gallery-item tall reveal reveal-up" data-category="baby-shoots">
+                    <img src="https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=800&q=80" alt="Newborn baby sleeping in basket" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Baby Shoots</span>
+                        <h3 class="gallery-item-title">Angelic Whispers</h3>
+                    </div>
+                </div>
+
+                <!-- Item 5: Fashion (Tall) -->
+                <div class="gallery-item tall reveal reveal-up" data-category="fashion">
+                    <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80" alt="Model posing on concrete stairwell" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Fashion</span>
+                        <h3 class="gallery-item-title">Urban Avant-Garde</h3>
+                    </div>
+                </div>
+
+                <!-- Item 6: Wedding -->
+                <div class="gallery-item reveal reveal-up" data-category="weddings">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80" alt="Bridal details ring and veil" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Weddings</span>
+                        <h3 class="gallery-item-title">Delicate Details</h3>
+                    </div>
+                </div>
+
+                <!-- Item 7: Portrait (Tall) -->
+                <div class="gallery-item tall reveal reveal-up" data-category="portraits">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="Classic male studio lighting headshot" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Portraits</span>
+                        <h3 class="gallery-item-title">Chiaroscuro Depth</h3>
+                    </div>
+                </div>
+
+                <!-- Item 8: Event -->
+                <div class="gallery-item reveal reveal-up" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80" alt="Party sparks sparkler crowd event" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Events</span>
+                        <h3 class="gallery-item-title">Vibrant Sparks</h3>
+                    </div>
+                </div>
+
+                <!-- Item 9: Baby Shoot -->
+                <div class="gallery-item reveal reveal-up" data-category="baby-shoots">
+                    <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80" alt="Happy family cuddling newborn baby" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Baby Shoots</span>
+                        <h3 class="gallery-item-title">First Embraces</h3>
+                    </div>
+                </div>
+
+                <!-- Item 10: Fashion -->
+                <div class="gallery-item reveal reveal-up" data-category="fashion">
+                    <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80" alt="Fashion catalog pose posing" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Fashion</span>
+                        <h3 class="gallery-item-title">Luxe Haute Couture</h3>
+                    </div>
+                </div>
+
+                <!-- Item 11: Wedding (Tall) -->
+                <div class="gallery-item tall reveal reveal-up" data-category="weddings">
+                    <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80" alt="Pre-wedding stroll through meadows" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Weddings</span>
+                        <h3 class="gallery-item-title">Sunset Serenade</h3>
+                    </div>
+                </div>
+
+                <!-- Item 12: Portrait -->
+                <div class="gallery-item reveal reveal-up" data-category="portraits">
+                    <img src="https://images.unsplash.com/photo-1618077360395-f3068be8e001?auto=format&fit=crop&w=800&q=80" alt="Studio lighting mood profile" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Portraits</span>
+                        <h3 class="gallery-item-title">Aura in Studio</h3>
+                    </div>
+                </div>
+
+                <!-- Item 13: Event -->
+                <div class="gallery-item reveal reveal-up" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1505232458627-a7272659798e?auto=format&fit=crop&w=800&q=80" alt="Rustic style dining event set" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Events</span>
+                        <h3 class="gallery-item-title">Rustic Dining</h3>
+                    </div>
+                </div>
+
+                <!-- Item 14: Baby Shoot (Tall) -->
+                <div class="gallery-item tall reveal reveal-up" data-category="baby-shoots">
+                    <img src="https://images.unsplash.com/photo-1484665754804-74b091211472?auto=format&fit=crop&w=800&q=80" alt="Mother holding sleeping baby boy" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Baby Shoots</span>
+                        <h3 class="gallery-item-title">Sweet Slumber</h3>
+                    </div>
+                </div>
+
+                <!-- Item 15: Fashion (Tall) -->
+                <div class="gallery-item tall reveal reveal-up" data-category="fashion">
+                    <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80" alt="Fashion editorial silk model" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Fashion</span>
+                        <h3 class="gallery-item-title">Haute Editorial</h3>
+                    </div>
+                </div>
+
+                <!-- Item 16: Wedding -->
+                <div class="gallery-item reveal reveal-up" data-category="weddings">
+                    <img src="https://images.unsplash.com/photo-1519225495810-7512c696505a?auto=format&fit=crop&w=800&q=80" alt="Bridal dance floor grand celebration" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Weddings</span>
+                        <h3 class="gallery-item-title">Love's Journey</h3>
+                    </div>
+                </div>
+
+                <!-- Item 17: Portrait (Tall) -->
+                <div class="gallery-item tall reveal reveal-up" data-category="portraits">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80" alt="Corporate executive studio headshot" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Portraits</span>
+                        <h3 class="gallery-item-title">The CEO Vision</h3>
+                    </div>
+                </div>
+
+                <!-- Item 18: Event -->
+                <div class="gallery-item reveal reveal-up" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=800&q=80" alt="Champagne celebration toast party" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Events</span>
+                        <h3 class="gallery-item-title">Bubbly Toast</h3>
+                    </div>
+                </div>
+
+                <!-- Item 19: Baby Shoot -->
+                <div class="gallery-item reveal reveal-up" data-category="baby-shoots">
+                    <img src="https://images.unsplash.com/photo-1515488042361-404e9250afef?auto=format&fit=crop&w=800&q=80" alt="Infant giggles studio setup" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Baby Shoots</span>
+                        <h3 class="gallery-item-title">Studio Giggles</h3>
+                    </div>
+                </div>
+
+                <!-- Item 20: Fashion -->
+                <div class="gallery-item reveal reveal-up" data-category="fashion">
+                    <img src="https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?auto=format&fit=crop&w=800&q=80" alt="Editorial profile silhouette look" class="gallery-img">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Fashion</span>
+                        <h3 class="gallery-item-title">Vogue Silhouette</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Overlay Container -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close Lightbox">
+            <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+        
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous Image">
+            <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+        </button>
+        
+        <div class="lightbox-content-wrap">
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption">
+                <h3 class="lightbox-title">Image Title</h3>
+                <span class="lightbox-category">Category</span>
+            </div>
+        </div>
+        
+        <button class="lightbox-nav lightbox-next" aria-label="Next Image">
+            <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col-about">
+                    <a href="index.html" class="logo" style="margin-bottom: 1.5rem; display: flex;">
+                        <span class="logo-main">ROYAL VISION</span>
+                        <span class="logo-sub">Photo Studio</span>
+                    </a>
+                    <span class="footer-tagline">"Capturing Emotions Through Photography"</span>
+                    <p class="footer-desc">Premium studio photography specializing in luxury weddings, editorial portraits, and fine events. Preserving your moments as fine art.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="footer-social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.8v8.37h2.8v-4.67c0-.25.02-.5.1-.68a1.14 1.14 0 0 1 1-.78c.76 0 1 .58 1 1.42v4.7h2.8M6.5 8.37a1.37 1.37 0 1 0 0-2.75 1.37 1.37 0 0 0 0 2.75M8 18.5V10.1H5.1v8.4H8z"/></svg>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6m8.9 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10m0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.06v1.74c0 .57-.03 1.26-.1 2.06-.06.8-.15 1.43-.28 1.9a2.9 2.9 0 0 1-2 2c-.77.2-2.13.3-4.1.3H9.1c-1.97 0-3.33-.1-4.1-.3a2.9 2.9 0 0 1-2-2c-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.06v-1.74c0-.57.03-1.26.1-2.06.06-.8.15-1.43.28-1.9a2.9 2.9 0 0 1 2-2c.77-.2 2.13-.3 4.1-.3h5.8c1.97 0 3.33.1 4.1.3a2.9 2.9 0 0 1 2 2z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Creative Portfolio</a></li>
+                        <li><a href="services.html">Services &amp; Pricing</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Wedding Shoots</a></li>
+                        <li><a href="services.html">Pre-Wedding Shoots</a></li>
+                        <li><a href="services.html">Birthday Events</a></li>
+                        <li><a href="services.html">Family Portraits</a></li>
+                        <li><a href="services.html">Baby Photography</a></li>
+                        <li><a href="services.html">Corporate Headshots</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Studio Info</h4>
+                    <ul class="footer-links" style="color: var(--color-text-muted); font-size: 0.85rem;">
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>Address:</strong><br>
+                            102 Royal Vision Blvd, Suite 400,<br>
+                            Creative District, NY 10012
+                        </li>
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>Phone:</strong> +1 (555) 893-2949
+                        </li>
+                        <li>
+                            <strong>Hours:</strong><br>
+                            Mon - Sat: 9:00 AM - 7:00 PM<br>
+                            Sunday: By Appointment Only
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span class="copyright">&copy; 2026 Royal Vision Photo Studio. All Rights Reserved.</span>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/15558932949" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact on WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.335 4.963L2 22l5.233-1.372a9.912 9.912 0 0 0 4.777 1.218h.004c5.505 0 9.988-4.478 9.989-9.984 0-2.669-1.037-5.176-2.922-7.062A9.92 9.92 0 0 0 12.012 2zm5.835 14.165c-.244.688-1.21 1.262-1.666 1.332-.456.07-1.018.127-3.08-.724-2.637-1.085-4.305-3.76-4.437-3.936-.131-.175-1.066-1.422-1.066-2.71 0-1.288.675-1.921.918-2.185.244-.263.532-.33.709-.33.177 0 .354.001.509.008.163.007.385-.062.602.463.221.537.755 1.84.821 1.975.066.134.111.292.022.47-.089.178-.133.292-.266.447-.133.154-.28.343-.399.46-.133.154-.28.343-.399.46-.133.13-.272.271-.117.537.155.265.688 1.135 1.474 1.834.13.115.26.23.39.345.865.772 1.583.948 1.905 1.05.322.102.509-.015.698-.225.188-.21.82-.953.998-1.284.177-.33.354-.277.598-.187.244.09 1.55.731 1.816.864.266.133.443.2.51.31.066.11.066.643-.178 1.331z"/>
+        </svg>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

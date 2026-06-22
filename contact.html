@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Royal Vision Photo Studio. Contact us for custom wedding, portrait, and event photography bookings.">
+    <title>Contact Us | Royal Vision Photo Studio</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo" id="headerLogo">
+                <span class="logo-main">ROYAL VISION</span>
+                <span class="logo-sub">Photo Studio</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-btn">
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle menu" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Inner Hero Page Banner -->
+    <section class="inner-hero">
+        <div class="hero-bg-wrap">
+            <img src="https://images.unsplash.com/photo-1520854221256-17451cc35953?auto=format&fit=crop&w=1920&q=80" alt="Contact Royal Vision Photo Studio" class="hero-bg">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="inner-hero-content">
+            <h1 class="inner-hero-title">Connect With Us</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a><span>&bull;</span><span>Contact Us</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Details & Form Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title-wrap reveal reveal-up">
+                <span class="section-subtitle">Let's Connect</span>
+                <h2 class="section-title">Let's Create Beautiful Memories</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Contact Form Column -->
+                <div class="contact-form-wrap glass-card reveal reveal-left">
+                    <h3 class="contact-form-title">Send A Message</h3>
+                    
+                    <form id="contactForm" action="https://formsubmit.co/aswinikopanathi@gmail.com" method="POST">
+                        <!-- Name Field -->
+                        <div class="form-group">
+                            <label for="formName" style="display:none;">Full Name</label>
+                            <input type="text" class="form-control" id="formName" placeholder="Full Name" required>
+                            <span class="form-error">Name must be at least 2 characters long.</span>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group">
+                            <label for="formEmail" style="display:none;">Email Address</label>
+                            <input type="email" class="form-control" id="formEmail" placeholder="Email Address" required>
+                            <span class="form-error">Please enter a valid email address.</span>
+                        </div>
+
+                        <!-- Phone Field -->
+                        <div class="form-group">
+                            <label for="formPhone" style="display:none;">Phone Number</label>
+                            <input type="tel" class="form-control" id="formPhone" placeholder="Phone Number (e.g. +1 555 893 2949)" required>
+                            <span class="form-error">Please enter a valid phone number.</span>
+                        </div>
+
+                        <!-- Message Field -->
+                        <div class="form-group">
+                            <label for="formMessage" style="display:none;">Message</label>
+                            <textarea class="form-control" id="formMessage" placeholder="Describe your creative vision..." required></textarea>
+                            <span class="form-error">Message must be at least 10 characters long.</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width:100%;">Submit Reservation</button>
+                    </form>
+                </div>
+
+                <!-- Info Cards & Map Column -->
+                <div class="contact-info-wrap reveal reveal-right">
+                    <!-- Info Card -->
+                    <div class="info-card glass-card">
+                        <!-- Address -->
+                        <div class="info-card-item">
+                            <svg class="info-icon" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <div class="info-text">
+                                <h4>Studio Address</h4>
+                                <p>102 Royal Vision Blvd, Suite 400, Creative District, NY 10012</p>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="info-card-item">
+                            <svg class="info-icon" viewBox="0 0 24 24">
+                                <path d="M6.62 10.79a15.15 15.15 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                            </svg>
+                            <div class="info-text">
+                                <h4>Phone Call / WhatsApp</h4>
+                                <p><a href="tel:+15558932949">+1 (555) 893-2949</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="info-card-item">
+                            <svg class="info-icon" viewBox="0 0 24 24">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                            <div class="info-text">
+                                <h4>Email Enquiries</h4>
+                                <p><a href="mailto:booking@royalvision.com">booking@royalvision.com</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Hours -->
+                        <div class="info-card-item">
+                            <svg class="info-icon" viewBox="0 0 24 24">
+                                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                            </svg>
+                            <div class="info-text">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Saturday: 9:00 AM - 7:00 PM<br>Sunday: By Appointment Only</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Embedded Map Frame -->
+                    <div class="map-frame">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.2778326297314!2d-73.9972322!3d40.7282498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259850c950a7f%3A0xc47e30d1ff695786!2sCreative%20District!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map of Creative District NY"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Toast Dialog overlay -->
+    <div class="toast-dialog" id="toast">
+        <svg class="toast-icon" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+        </svg>
+        <span class="toast-text">Thank you! Your creative request has been sent successfully. We will get back to you shortly.</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col-about">
+                    <a href="index.html" class="logo" style="margin-bottom: 1.5rem; display: flex;">
+                        <span class="logo-main">ROYAL VISION</span>
+                        <span class="logo-sub">Photo Studio</span>
+                    </a>
+                    <span class="footer-tagline">"Capturing Emotions Through Photography"</span>
+                    <p class="footer-desc">Premium studio photography specializing in luxury weddings, editorial portraits, and fine events. Preserving your moments as fine art.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="footer-social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.8v8.37h2.8v-4.67c0-.25.02-.5.1-.68a1.14 1.14 0 0 1 1-.78c.76 0 1 .58 1 1.42v4.7h2.8M6.5 8.37a1.37 1.37 0 1 0 0-2.75 1.37 1.37 0 0 0 0 2.75M8 18.5V10.1H5.1v8.4H8z"/></svg>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6m8.9 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10m0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.06v1.74c0 .57-.03 1.26-.1 2.06-.06.8-.15 1.43-.28 1.9a2.9 2.9 0 0 1-2 2c-.77.2-2.13.3-4.1.3H9.1c-1.97 0-3.33-.1-4.1-.3a2.9 2.9 0 0 1-2-2c-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.06v-1.74c0-.57.03-1.26.1-2.06.06-.8.15-1.43.28-1.9a2.9 2.9 0 0 1 2-2c.77-.2 2.13-.3 4.1-.3h5.8c1.97 0 3.33.1 4.1.3a2.9 2.9 0 0 1 2 2z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Creative Portfolio</a></li>
+                        <li><a href="services.html">Services &amp; Pricing</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Wedding Shoots</a></li>
+                        <li><a href="services.html">Pre-Wedding Shoots</a></li>
+                        <li><a href="services.html">Birthday Events</a></li>
+                        <li><a href="services.html">Family Portraits</a></li>
+                        <li><a href="services.html">Baby Photography</a></li>
+                        <li><a href="services.html">Corporate Headshots</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Studio Info</h4>
+                    <ul class="footer-links" style="color: var(--color-text-muted); font-size: 0.85rem;">
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>Address:</strong><br>
+                            102 Royal Vision Blvd, Suite 400,<br>
+                            Creative District, NY 10012
+                        </li>
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>Phone:</strong> +1 (555) 893-2949
+                        </li>
+                        <li>
+                            <strong>Hours:</strong><br>
+                            Mon - Sat: 9:00 AM - 7:00 PM<br>
+                            Sunday: By Appointment Only
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span class="copyright">&copy; 2026 Royal Vision Photo Studio. All Rights Reserved.</span>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/15558932949" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact on WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.335 4.963L2 22l5.233-1.372a9.912 9.912 0 0 0 4.777 1.218h.004c5.505 0 9.988-4.478 9.989-9.984 0-2.669-1.037-5.176-2.922-7.062A9.92 9.92 0 0 0 12.012 2zm5.835 14.165c-.244.688-1.21 1.262-1.666 1.332-.456.07-1.018.127-3.08-.724-2.637-1.085-4.305-3.76-4.437-3.936-.131-.175-1.066-1.422-1.066-2.71 0-1.288.675-1.921.918-2.185.244-.263.532-.33.709-.33.177 0 .354.001.509.008.163.007.385-.062.602.463.221.537.755 1.84.821 1.975.066.134.111.292.022.47-.089.178-.133.292-.266.447-.133.154-.28.343-.399.46-.133.154-.28.343-.399.46-.133.13-.272.271-.117.537.155.265.688 1.135 1.474 1.834.13.115.26.23.39.345.865.772 1.583.948 1.905 1.05.322.102.509-.015.698-.225.188-.21.82-.953.998-1.284.177-.33.354-.277.598-.187.244.09 1.55.731 1.816.864.266.133.443.2.51.31.066.11.066.643-.178 1.331z"/>
+        </svg>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
